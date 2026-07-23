@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Audiowide&family=Carter+One&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #2A2A31;
+    padding:5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:1px;
+}
+h1{
+    font-family: "Outfit", sans-serif;
+    color:#FF8C00;
+    
+}
+#cabecalho img{
+   height: 55px;
+   width:55px;
+}
+nav a:link, nav a:visited, nav a:hover, nav a:active{
+    text-decoration:none;
+    color:#FF8C00;
+    font-family:"Elms Sans",sans-serif;
+    font-weight:bold;
+    font-size:16px;
+    padding-left:40px;
+}
+nav{
+align-items:center;
+padding-right: 30px;
+font-size:17px;
+}
+h2{
+    color:#f5f5f5;
+    font-size:30px;
+}
+.anime{
+    font-family:"Audiowide",sans-serif;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    background-color:#202124;
+    padding:5px;
+}
+.Sinopse{
+    min-width:690px;
+    min-height:443px;  
+    max-width:690px;
+    max-height:443px;
+}
+.Sinopse p{
+    font-family:"Oswald",sans-serif;
+    color:#f5f5f5;
+    font-size:17.5px;
+    margin:15px;
+}
+h3{
+    font-family:"Outfit",sans-serif;
+}
+#rodapé{
+    
+}
