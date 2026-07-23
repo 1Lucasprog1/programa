@@ -61,3 +61,14 @@ h2{
 h3{
     font-family:"Outfit",sans-serif;
 }
+ @media (min-width: 768px){
+        .anime{
+            display:flex;
+            justify-content:center;
+ }
+        .Sinopse{
+            display:flex;
+            justify-content:center;
+            width: 50%;
+}
+ }
